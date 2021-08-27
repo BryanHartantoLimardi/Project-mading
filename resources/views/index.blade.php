@@ -4,12 +4,21 @@
 
 @section('body-container')
     <div class="navbar">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">About us</a>
+            <a href="#">Our service</a>
+            <a href="#">Contact us</a>
+            <a href="#">Q&A</a>
+            <a href="/login">Login</a>
+        </div>
+
         <div class="container logo-container">
-            <b><i class="fa fa-bars mr-3"></i>&nbsp;&nbsp;&nbsp;<a href="/"><img src="img/logo.png" class="logo"
-                        alt=""></a></b>
+            <b><i class="fa fa-bars mr-3" onclick="openNav()"></i>&nbsp;&nbsp;&nbsp;<a href="/"><img src="img/logo.png"
+                        class="logo" alt=""></a></b>
         </div>
     </div>
-    <div class="heading">
+    <div class="heading-image">
         <div class="container itam">
             <div class="isi">
                 <b class="b-head mb-3">Tempat untuk <br> Mengkreasikan Karyamu</b>
@@ -18,11 +27,11 @@
                     laborum
                     porro vitae
                     temporibus ab omnis accusamus.</p>
-                <button class="btn get-started">Get Started</button>
+                <a href="/login"><button class="btn get-started">Get Started</button></a>
             </div>
         </div>
     </div>
-    <div class="body-content">
+    <div class="body-content-image">
         <div class="container">
             <div class="about-us mb-5">
                 <div class="top text-center mt-4 mb-2">

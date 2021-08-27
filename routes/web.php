@@ -16,3 +16,31 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/mainpage', function () {
+    return view('indexafterlogin');
+});
+
+Route::get('/detail-img', function () {
+    return view('detailimg');
+});
+
+Route::get('/profile', function() {
+    return view('profile');
+});
+
+Route::get('/edit-profile', function() {
+    return view('editprofile');
+});
+
+Route::get('/about-profile', function() {
+    return view('aboutprofile');
+});
+
+Route::get('/pertanyaan-profile', function() {
+    return view('tanya');
+});
