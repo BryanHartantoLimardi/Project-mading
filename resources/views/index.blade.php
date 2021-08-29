@@ -21,7 +21,7 @@
     <div class="heading-image">
         <div class="container itam">
             <div class="isi">
-                <b class="b-head mb-3">Tempat untuk <br> Mengkreasikan Karyamu</b>
+                <b class="b-head mb-3">Tempat untuk <br> Mengkreasikan karyamu</b>
                 <p class="mb-4 text-size image-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At natus quis
                     sit facere
                     laborum
