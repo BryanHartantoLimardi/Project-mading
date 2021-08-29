@@ -14,7 +14,8 @@
         </div>
 
         <div class="container">
-            <b><i class="fa fa-bars mr-3" onclick="openNav()"></i>&nbsp;&nbsp;&nbsp;Mading Sekolah</b>
+            <b><i class="fa fa-bars mr-3" onclick="openNav()"></i>&nbsp;&nbsp;&nbsp;<a href="/"><img src="img/logo.png"
+                        class="logo" alt=""></a></b>
         </div>
     </div>
     <div class="heading">
@@ -32,7 +33,7 @@
 
                     <div class="mhn-inner" style="">
                         <img src="https://storage.googleapis.com/gd-wagtail-prod-assets/
-                                                        original_images/evolving_google_identity_2x1.jpg">
+                                                            original_images/evolving_google_identity_2x1.jpg">
 
                         <div class="mhn-img">
                             <div class="loader-circle">
