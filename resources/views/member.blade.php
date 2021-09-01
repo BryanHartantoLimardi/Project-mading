@@ -11,9 +11,12 @@
                 <hr />
                 <div class="isi-member">
                     <h3 style="font-width:5px;">Member</h3>
+                    <a href="/modal" onclick="return">
+                    <div class="bulat-kiri"></div>                    
+                        <p style="margin-top:10px;">steven alexander</p>
+                    </a>
                     <br />
-                    <div class="bulat-kiri"></div><p style="margin-top:10px;">steven alexander</p>
-                    <br />
+
                     <div class="bulat-kiri"></div><p style="margin-top:10px;">steven alexander</p>
                     <br />
                     <div class="bulat-kiri"></div><p style="margin-top:10px;">steven alexander</p>

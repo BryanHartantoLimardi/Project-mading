@@ -44,3 +44,18 @@ Route::get('/about-profile', function() {
 Route::get('/pertanyaan-profile', function() {
     return view('tanya');
 });
+Route::get('/chat', function() {
+    return view('chat');
+});
+Route::get('/modal', function() {
+    return view('modal');
+});
+Route::get('/Q&A', function() {
+    return view('Q&A');
+});
+Route::get('/member', function() {
+    return view('member');
+});
+Route::get('/post', function() {
+    return view('post');
+});
