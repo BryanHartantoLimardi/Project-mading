@@ -13,10 +13,10 @@
 <div class="heading">
     <div class="container itam">
         <div class="isi">
-<p class="text-size2 image-text mt-4">Belajar dari kemarin Hidup untuk sekarang. 
+<p class="text-size2 image-text mt-4 mb-3">Belajar dari kemarin Hidup untuk sekarang. 
             Berharap untuk besok. Hal yang paling penting adalah jangan berhenti bertanya</p>
 
-            <input type="text" id="" name="" class="pertanyaan" value="Apa Pertanyaanmu?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;icon">
+            <input type="text" id="" name="" class="pertanyaan" style="border-width:0" value="Apa Pertanyaanmu?">
         </div>
     </div>
 </div>
