@@ -54,7 +54,8 @@
                     <div class="card about-data">
                         <hr class="line-decoration">
                         <b class="mb-2">12 TKJ 3</b>
-                        <p class="text-size">Ide ini dibangun oleh salah satu kelompok di Kelas 12 TKJ 3. Kami membuat ide
+                        <p class="text-size">Ide ini dibangun oleh salah satu kelompok di Kelas 12 TKJ 3. Kami membuat
+                            ide
                             ini
                             agar dapat membantu
                             Sekolah kita agar dapat lebih membangun sekolah untuk lebih maju dan lebih kedepan</p>
