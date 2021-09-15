@@ -1,5 +1,6 @@
 <?php
 
+use Facade\FlareClient\View;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,48 +15,52 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home.index');
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('login.login');
 });
 
 Route::get('/mainpage', function () {
-    return view('indexafterlogin');
+    return view('home.indexafterlogin');
 });
 
 Route::get('/detail-img', function () {
-    return view('detailimg');
+    return view('home.detailimg');
 });
 
 Route::get('/profile', function() {
-    return view('profile');
+    return view('profile.profile');
 });
 
 Route::get('/edit-profile', function() {
-    return view('editprofile');
+    return view('profile.editprofile');
 });
 
 Route::get('/about-profile', function() {
-    return view('aboutprofile');
+    return view('profile.aboutprofile');
 });
 
 Route::get('/pertanyaan-profile', function() {
-    return view('tanya');
+    return view('profile.tanya');
 });
 Route::get('/chat', function() {
-    return view('chat');
+    return view('popup.chat');
 });
 Route::get('/modal', function() {
-    return view('modal');
+    return view('popup.modal');
 });
 Route::get('/Q&A', function() {
-    return view('Q&A');
+    return view('popup.Q&A');
 });
 Route::get('/member', function() {
-    return view('member');
+    return view('popup.member');
 });
 Route::get('/post', function() {
-    return view('post');
+    return view('popup.post');
+});
+
+Route::get('/loginupdate', function() {
+    return view('login.login');
 });
