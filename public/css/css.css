@@ -25,6 +25,14 @@
     border: 1px solid #888;
     width: 80%;
   }
+
+  .modal-content-raymond {
+    background-color: #fefefe;
+    border-radius:20px;
+    margin: auto;
+    border: 1px solid #888;
+    width: 90%;
+  }
   
   /* The Close Button */
   .close {
@@ -49,6 +57,14 @@
     padding-bottom:20px;
     border-radius:20px;
 }
+.kotak-putus{
+    width:30%;
+    margin:0 auto;
+    border:1px dashed #FFC600;
+    padding:50px;
+    margin-bottom:50px;
+    margin-top:20px;
+}
 .luar{
     width:60px;
     height:60px;
@@ -59,6 +75,19 @@
     display:flex;
     float:right;
 
+}
+.luar-nofill{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color:white;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+    border:1px grey;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin:0 auto;
+    margin-bottom:20px;
 }
 .content-luar{
     width:100%;
@@ -88,6 +117,39 @@
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.input-icon{
+    position:relative;
+}
+#test{
+    margin-top:15px; 
+    border-radius:10px; 
+    border-width:0; 
+    height:50px; 
+    padding:10px; 
+    width:100%;
+}
+#user1{
+    position:absolute;
+    bottom:15px;
+    right:25px;
+    width:20px;
+    height:20px;
+}
+#user2{
+    position:absolute;
+    bottom:15px;
+    right:56px;
+    width:20px;
+    height:20px;
+}
+#user3{
+    position:absolute;
+    bottom:15px;
+    right:90px;
+    width:20px;
+    height:20px;
 }
 .col {
     margin:20px;
@@ -171,6 +233,20 @@
     height:50px;
     background-color:green;
 }
+.inline{
+    display:inline;
+}
+.continue{
+    width:120px;
+    margin-left:30px; 
+    height:40px;
+    border:0;
+    border-radius:9px;
+    font-weight:800;
+    position:absolute; 
+    background-color:#ffc600;
+    margin-top:3px;
+}
 .inline-block{
     display:inline-block;
     width:40px;
@@ -232,6 +308,7 @@
     display:flex;
     margin:0;
     width:100%;
+    margin-right:20px;
     justify-content: space-between;
 }
 /* .categori-tag li{

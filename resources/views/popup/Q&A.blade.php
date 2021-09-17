@@ -27,7 +27,6 @@
             <li>matematika</li>
             <li>sains</li>
             <li>jaringan</li>
-            <li>icon</li>
             
 
         </ul>
@@ -39,19 +38,32 @@
             <br />
             <span style="font-size:12px;" >16 januari 2021</span>            
         </p>
-        <div class="div"></div> 
+        <textarea disabled style="width:350px; margin-top:10px; height:100px; text-wrapping:enable" >lorem ipsum dolor sit amet , constracture lorem ipsum dolor sit amet contstracture dolor amet sit ipsum lorem ipsum dolor</textarea>
+
         <div class="qContent">
             <p class='kotakp'>iT</p>
             <p class='kotakp'>Designer</p>
             <p class='kotakp'>jaringan</p>
             <br />
         </div>
-        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>           
-            <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-            <br /><br />
-            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>           
-                <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-            <br /><br />
+        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+                <div class="input-icon">        
+                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
+                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                   
+                </div>
+            <br />
+            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+                <div class="input-icon">        
+                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
+                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                   
+                </div>
+            <br />
             
         <p style="margin-left:10px;">View all 983 comments</p>
         <div class="bulat-kiri" style="margin-left:10px;"></div>           
@@ -70,20 +82,38 @@
             <p class='kotakp'>jaringan</p>
             <br />
         </div>
-        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>           
-            <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-            <br /><br />
-            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>           
-                <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-            <br /><br />
+        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+                <div class="input-icon">        
+                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
+                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>                   
+                </div>
+
+            <br />
+
+            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+                <div class="input-icon">        
+                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
+                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                   
+                </div>
+                <br />
+
             
         <p style="margin-left:10px;">View all 983 comments</p>
         <div class="bulat-kiri" style="margin-left:10px;"></div>           
                 <input type="text" value="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
             
     </div>
-
-    <p style="text-align: center;"> icon </p>
+    <div class="content-luar">
+        <div class="luar-nofill">
+            <span class="iconify" data-icon="bx:bxs-chevron-down" style="color: #ffc600;" data-height="50"></span>
+        </div>
+    </div>
+    
     <div class="button-ajukan">
         <input type="button" value="ajukan pertanyaan" class="ajukan center-block mb-3   ">
     </div>

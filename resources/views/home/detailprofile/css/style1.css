@@ -1,0 +1,108 @@
+/*Universal*/
+*{
+	font-family: 'Poppins';
+}
+body{
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Universal*/
+/*Navbar*/
+.inline{
+	display: inline-block;
+	font-size: 1.5vh;
+	margin: 0 1vw;
+}
+/*Navbar*/
+/*Banner*/
+.bg-edit{
+	margin: -25vw 0 3vh 0;
+	width: 100%;
+	height: 50%;
+}
+.background{
+	width: 100%;
+	height: 50%;
+}
+/*Banner*/
+/*Profile*/
+.foto{
+	border-radius: 50%;
+	border: solid 4px white;
+}
+.foto-edit{
+	height: 8vh;
+	width: 8vh;
+	border-radius: 50%;
+	border: solid 4px white;
+}
+/*Profile*/
+/*About Me*/
+.contain{
+	padding: 4.4vh 6vw;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.card-title{
+	color: #767676;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0;
+}
+.line{
+	border-bottom: 2px solid #ffc600;
+	padding-bottom: 4px;
+	margin-bottom: 12px;
+	width: 8vh;
+}
+.content{
+	font-size: 13px;
+	font-weight: 500;
+}
+.sub-title{
+	font-weight: 600;
+	font-size: 14px;
+	padding-bottom: 8px;
+}
+.desc{
+	background-color: #F4F4F4;
+	border: none;
+	padding: 4px 6px;
+	color: #B6B6B6;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+/*About Me*/
+/*Achievement*/
+.achieve-space{
+	margin-bottom: 6px;
+}
+.ratio{
+	height: 33%;
+	display: block;
+}
+.text-normal{
+	font-size: 10px;
+	font-weight: 500;
+}
+/*Achievement*/
+/*Button*/
+.btn{
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	background-color: #FFC600;
+	border-radius: 8px;
+}
+/*Button*/
+/*Footer*/
+
+/*Footer*/
