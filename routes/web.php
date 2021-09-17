@@ -1,7 +1,7 @@
 <?php
 
-use Facade\FlareClient\View;
 use Illuminate\Support\Facades\Route;
+use App\http\Controllers\MadingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,20 +14,83 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home.index');
+
+
+
+
+
+
+
+Route::get('/edit-profile', function() {
+    return view('editprofile');
 });
+
+Route::get('/about-profile', function() {
+    return view('aboutprofile');
+});
+
+Route::get('/pertanyaan-profile', function() {
+    return view('tanya');
+});
+Route::get('/', function() {
+    return view('chat');
+});
+Route::get('/modal', function() {
+    return view('modal');
+});
+Route::get('/Q&A', function() {
+    return view('Q&A');
+});
+Route::get('/member', function() {
+    return view('member');
+});
+Route::get('/karya', function() {
+    return view('karya');
+});
+
+Route::get('/chat', function() {
+    return view('chat');
+});
+
+Route::get('/addpost', function() {
+    return view('addpost');
+});
+
+Route::get('/coba', function() {
+    return view('coba');
+});
+
+Route::get('/post', [MadingController::class, 'post']);
+
+
+
+Route::get('/modal-raymond', function() {
+    return view('modal-raymond');
+});
+
+
+
+
+
+
+
+
+
+
+Route::get('/', [MadingController::class, 'index']);
 
 Route::get('/login', function () {
     return view('login.login');
 });
 
-Route::get('/mainpage', function () {
-    return view('home.indexafterlogin');
-});
 
-Route::get('/detail-img', function () {
-    return view('home.detailimg');
+Route::post('/mainpage', [MadingController::class, 'store']);
+
+Route::get('/mainpage', [MadingController::class, 'mainpage']);
+
+
+Route::get('/detailprofile', function () {
+    return view('home.detailprofile.index');
 });
 
 Route::get('/profile', function() {
@@ -44,9 +107,6 @@ Route::get('/about-profile', function() {
 
 Route::get('/pertanyaan-profile', function() {
     return view('profile.tanya');
-});
-Route::get('/chat', function() {
-    return view('popup.chat');
 });
 Route::get('/modal', function() {
     return view('popup.modal');
