@@ -44,21 +44,15 @@ Route::get('/Q&A', function() {
 Route::get('/member', function() {
     return view('member');
 });
-Route::get('/karya', function() {
-    return view('karya');
-});
 
-Route::get('/chat', function() {
-    return view('chat');
-});
+
+
 
 Route::get('/addpost', function() {
     return view('addpost');
 });
 
-Route::get('/coba', function() {
-    return view('coba');
-});
+
 
 Route::get('/post', [MadingController::class, 'post']);
 
@@ -82,6 +76,7 @@ Route::get('/', [MadingController::class, 'index']);
 Route::get('/login', function () {
     return view('login.login');
 });
+
 
 
 Route::post('/mainpage', [MadingController::class, 'store']);
@@ -119,6 +114,17 @@ Route::get('/member', function() {
 });
 Route::get('/post', function() {
     return view('popup.post');
+});
+
+Route::get('/coba', function() {
+    return view('popup.coba');
+});
+Route::get('/karya', function() {
+    return view('popup.karya');
+});
+
+Route::get('/chat', function() {
+    return view('popup.chat');
 });
 
 Route::get('/loginupdate', function() {
