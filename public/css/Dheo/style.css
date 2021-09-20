@@ -800,7 +800,7 @@ header{
   
   .qna{
     text-align: center;
-    font-size: 15px;
+    
   }
   
   .pull-right {
@@ -997,13 +997,14 @@ header{
   .mapel li a {
     display: block;
     color: #000000;
+    border-radius:10px;
     text-align: center;
     padding: 16px;
     text-decoration: none;
   }
   
   .mapel li a:hover {
-    background-color: #111111;
+    background-color: grey;
   }
 
   .detail-img-style {

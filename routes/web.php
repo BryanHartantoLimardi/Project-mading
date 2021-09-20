@@ -21,46 +21,46 @@ use App\http\Controllers\MadingController;
 
 
 
-Route::get('/edit-profile', function() {
-    return view('editprofile');
-});
+// Route::get('/edit-profile', function() {
+//     return view('editprofile');
+// });
 
-Route::get('/about-profile', function() {
-    return view('aboutprofile');
-});
+// Route::get('/about-profile', function() {
+//     return view('aboutprofile');
+// });
 
-Route::get('/pertanyaan-profile', function() {
-    return view('tanya');
-});
-Route::get('/', function() {
-    return view('chat');
-});
-Route::get('/modal', function() {
-    return view('modal');
-});
-Route::get('/Q&A', function() {
-    return view('Q&A');
-});
-Route::get('/member', function() {
-    return view('member');
-});
-
-
-
-
-Route::get('/addpost', function() {
-    return view('addpost');
-});
+// Route::get('/pertanyaan-profile', function() {
+//     return view('tanya');
+// });
+// Route::get('/', function() {
+//     return view('chat');
+// });
+// Route::get('/modal', function() {
+//     return view('modal');
+// });
+// Route::get('/Q&A', function() {
+//     return view('Q&A');
+// });
+// Route::get('/member', function() {
+//     return view('member');
+// });
 
 
 
-Route::get('/post', [MadingController::class, 'post']);
+
+// Route::get('/addpost', function() {
+//     return view('addpost');
+// });
 
 
 
-Route::get('/modal-raymond', function() {
-    return view('modal-raymond');
-});
+// Route::get('/post', [MadingController::class, 'post']);
+
+
+
+// Route::get('/modal-raymond', function() {
+//     return view('modal-raymond');
+// });
 
 
 
