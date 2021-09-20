@@ -44,40 +44,25 @@ use App\http\Controllers\MadingController;
 // Route::get('/member', function() {
 //     return view('member');
 // });
-
-
-
-
 // Route::get('/addpost', function() {
 //     return view('addpost');
 // });
-
-
-
-// Route::get('/post', [MadingController::class, 'post']);
-
-
 
 // Route::get('/modal-raymond', function() {
 //     return view('modal-raymond');
 // });
 
+// Route::get('/modal-raymond', function() {
+//     return view('modal-raymond');
+// });
 
-
-
-
-
-
-
-
+Route::get('/post', [MadingController::class, 'post']);
 
 Route::get('/', [MadingController::class, 'index']);
 
 Route::get('/login', function () {
     return view('login.login');
 });
-
-
 
 Route::post('/mainpage', [MadingController::class, 'store']);
 
