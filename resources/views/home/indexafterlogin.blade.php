@@ -1,8 +1,14 @@
-@extends('template.main')
+@extends('template.dheo')
 
 @section('title', 'Home Login')
 
 @section('body-container')
+<style>
+    img{
+        width:350px;
+        height:262px;
+    }
+</style>
 <div class="navbar">
     <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -28,350 +34,187 @@
         <b><i class="fa fa-bars mr-3" onclick="openNav()"></i>&nbsp;&nbsp;&nbsp;Mading Sekolah</b>
     </div>
 </div>
-<div class="heading">
+<div class="heading mb-3">
     <div class="container itam">
         <div class="isi">
             <b class="b-head mb-3">Welcome To Mading <br> "Session Login Echo di sini"</b>
         </div>
     </div>
 </div>
-<div class="body-content">
+{{-- <div class="body-content"> --}}
     <div class="container">
+        <div class="isi-main mb-3"> 
+            <div class="box"> 
+                <img src="images/post1.png">
+        
+                <p class="text kiri-bawah">FireWatch</p>
+                <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
+                <p class="text kanan-bawah">60.000</p>
 
-            <div class="mhn-slide owl-carousel">
-        <div class="mhn-item">
-            
-            <div class="mhn-inner">
-                <img src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg">
-
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
                 
             </div>
+        </div>
 
-        </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?fire">
-                <div class="mhn-img">
-                    
-                  
-                </div>
-                <div class="mhn-text">
-                    <h4>Fire</h4>
-                    <p>Fire is the rapid oxidation of a material in the exothermic chemical process of combustion, releasing heat, light, and various reaction products.</p>
-                </div>
+        <div class="isi-main mb-3"> 
+            <div class="box">
+                <select name="filter" id="filter">
+                    <option value="category">Category</option>
+                    <option value="category">Like</option>
+                    <option value="category">Category</option>
+                </select>
             </div>
         </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?nature">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Nature</h4>
-                    <p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general.</p>
-                </div>
+
+        <div class="isi-main mb-3"> 
+            <div class="box"> 
+                <img src="images/post1.png">
+        
+                <p class="text kiri-bawah">FireWatch</p>
+                <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
+                <p class="text kanan-bawah">60.000</p>
             </div>
         </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?video">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Video</h4>
-                    <p>Video is an electronic medium for the recording, copying, playback, broadcasting, and display of moving visual media.</p>
-                </div>
+
+        <div class="isi-main mb-3"> 
+            <div class="box"> 
+                <img src="images/post1.png">
+        
+                <p class="text kiri-bawah">FireWatch</p>
+                <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
+                <p class="text kanan-bawah">60.000</p>
             </div>
         </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?hiking">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Hiking</h4>
-                    <p>Hiking is the preferred term, in Canada and the United States, for a long, vigorous walk, usually on trails (footpaths), in the countryside, while the word walking is used for shorter, particularly urban walks.</p>
-                </div>
+
+        <div class="isi-main mb-3"> 
+            <div class="box"> 
+                <img src="images/post1.png">
+        
+                <p class="text kiri-bawah">FireWatch</p>
+                <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
+                <p class="text kanan-bawah">60.000</p>
             </div>
         </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?future">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Future</h4>
-                    <p>The future is the time after the present. Future or The Future may also refer to: Futures contract, a standardized financial contract; Future (programming) · Future tense, in grammar. Contents.</p>
-                </div>
+
+        <div class="isi-main mb-3"> 
+            <div class="box"> 
+                <img src="images/post1.png">
+        
+                <p class="text kiri-bawah">FireWatch</p>
+                <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
+                <p class="text kanan-bawah">60.000</p>
             </div>
         </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?music">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Music</h4>
-                    <p>Music is an art form and cultural activity whose medium is sound organized in time. The common elements of music are pitch rhythm dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound).</p>
-                </div>
-            </div>
-        </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?money">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                   
-                </div>
-                <div class="mhn-text">
-                    <h4>Money</h4>
-                    <p>Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts in a particular country or socio-economic context.</p>
-                </div>
-            </div>
-        </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?happiness">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Happiness</h4>
-                    <p>In psychology, happiness is a mental or emotional state of well-being which can be defined by, among others, positive or pleasant emotions ranging from contentment to intense joy.</p>
-                </div>
-            </div>
-        </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?nepal">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Nepal</h4>
-                    <p>Nepal is a landlocked central Himalayan country in South Asia. Nepal is divided into 7 states and 77 districts and 744 local units including 4 metropolises, 13 sub-metropolises, 246 municipal councils and 481 villages.</p>
-                </div>
-            </div>
-        </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?love">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Love</h4>
-                    <p>Love encompasses a variety of different emotional and mental states, typically strongly and positively experienced, ranging from the deepest interpersonal affection to the simplest pleasure.</p>
-                </div>
-            </div>
-        </div>
-        <div class="mhn-item">
-            <div class="mhn-inner">
-                <img src="https://source.unsplash.com/600x400/?sports">
-                <div class="mhn-img">
-                    <div class="loader-circle">
-                        <div class="loader-stroke-left"></div>
-                        <div class="loader-stroke-right"></div>
-                    </div>
-                    
-                </div>
-                <div class="mhn-text">
-                    <h4>Sports</h4>
-                    <p>A sport is commonly defined as an athletic activity or skill and involves a degree of competition, such as tennis or basketball. Some games and many kinds of racing are called sports.</p>
-                </div>
-            </div>
-        </div>
+        <br />
+        <h5 class="tengah">Lihat Lainnya</h5>
     </div>
-
-         <div class="row" style="margin-top: 50px;">
-        <div class="col-md-12">
-            <select id="cars">
-                  <option value="volvo">3D</option>
-                  <option value="saab">Abstrac</option>
-                  <option value="vw">Animals</option>
-                  <option value="audi">Art</option>
-                  <option value="audi">Computer</option>
-            </select>
-        </div>
-    </div>
-    <div class="row" style="margin-top:50px;">
-        <div class="col-md-4" style="margin-top: 40px;">
-            <img src="https://source.unsplash.com/600x400/?fire" width="100%">
-        </div>
-
-        <div class="col-md-4" style="margin-top: 40px;">
-            <img src="https://source.unsplash.com/600x400/?fire" width="100%">
-        </div>
-
-        <div class="col-md-4" style="margin-top: 40px;">
-            <img src="https://source.unsplash.com/600x400/?fire" width="100%">
-        </div>
-    </div>
+    <br />
 
     <div class="row">
         <div class="col-md-12">
-            <p class="qna">Q&A</p>
-        </div>
-        <div class="row">
-            <div class="mapel col-md-12">
-                <ul>
-                    <li><a href="#computer">Computer</a></li>
-                    <li><a href="#matematika">Matematika</a></li>
-                    <li><a href="#sains">Sains</a></li>
-                    <li><a href="#jaringan">Jaringan</a></li>
-                </ul>
-            </div>
+            <h1 class="qna">Q&A</h1>
         </div>
     </div>
 
-    <div class="row" style="margin-top: 80px;">
-        <div class="d-flex align-items-center justify-content-center vh-100">
-  <div class="container">
-    <div class="row justify-content-center mb-4">
-      <div class="col-lg-8">
-        <h5>2 Comments</h5>
-      </div>
-    </div>
-    <div class="row justify-content-center mb-4">
-      <div class="col-lg-8">
-        <div class="comments">
-          <div class="comment d-flex mb-4">
-            <div class="flex-shrink-0">
-              <div class="avatar avatar-sm rounded-circle">
-                <img class="avatar-img" src="https://uifaces.co/our-content/donated/AW-rdWlG.jpg" alt="">
-              </div>
+    <div class="navbar mt-3">
+        <div class="container">
+            <ul class="categori-tag mapel">
+                <li> <a href="" class="">Computer</a></li>
+                <li><a href="" class="">Matematika</a></li>
+                <li><a href="" class="">Sains</a></li>
+                <li><a href="" class="">Jaringan</a></li>
+                
+
+            </ul>
+        </div>
+    </div>          
+    <br />           
+      
+
+    <div class="kotak-abu">
+        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div><p class="mt-2" style="margin-bottom:10px;">Wilson AIken Tedjakusuma
+            <br />
+            <span style="font-size:12px;" >16 januari 2021</span>            
+        </p>
+        <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+
+        <div class="qContent">
+            <p class='kotakp'>iT</p>
+            <p class='kotakp'>Designer</p>
+            <p class='kotakp'>jaringan</p>
+            <br />
+        </div>
+        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+            <div class="input-icon">        
+                <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+                <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                
             </div>
-            <div class="flex-grow-1 ms-2 ms-sm-3">
-              <div class="comment-meta d-flex align-items-baseline">
-                <h6 class="me-2">Jordan Singer</h6>
-                <span class="text-muted">2d</span>
-              </div>
-              <div class="comment-body">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non minima ipsum at amet doloremque qui magni, placeat deserunt pariatur itaque laudantium impedit aliquam eligendi repellendus excepturi quibusdam nobis esse accusantium.
-              </div>
+        <br />
+        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+            <div class="input-icon">        
+                <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+                <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+            
+            </div>
+        <br />
+            
+        <p style="margin-left:10px;">View all 983 comments</p>
+        <div class="bulat-kiri" style="margin-left:10px;"></div>           
+                <input type="text"  placeholder="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
+            
+        </div>
 
-              <div class="comment-replies bg-light p-3 mt-3 rounded">
-                <h6 class="comment-replies-title mb-4 text-muted text-uppercase">2 replies</h6>
-
-                <div class="reply d-flex mb-4">
-                  <div class="flex-shrink-0">
-                    <div class="avatar avatar-sm rounded-circle">
-                      <img class="avatar-img" src="https://images.unsplash.com/photo-1501325087108-ae3ee3fad52f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=f7f448c2a70154ef85786cf3e4581e4b" alt="">
-                    </div>
-                  </div>
-                  <div class="flex-grow-1 ms-2 ms-sm-3">
-                    <div class="reply-meta d-flex align-items-baseline">
-                      <h6 class="mb-0 me-2">Brandon Smith</h6>
-                      <span class="text-muted">2d</span>
-                    </div>
-                    <div class="reply-body">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    </div>
-                  </div>
+        <div class="kotak-abu">
+            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div><p class="mt-2" style="margin-bottom:10px;">Wilson AIken Tedjakusuma
+                <br />
+                <span style="font-size:12px;" >16 januari 2021</span>            
+            </p>
+            <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+    
+            <div class="qContent">
+                <p class='kotakp'>iT</p>
+                <p class='kotakp'>Designer</p>
+                <p class='kotakp'>jaringan</p>
+                <br />
+            </div>
+            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+                <div class="input-icon">        
+                    <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                    
                 </div>
-                <div class="reply d-flex">
-                  <div class="flex-shrink-0">
-                    <div class="avatar avatar-sm rounded-circle">
-                      <img class="avatar-img" src="https://uifaces.co/our-content/donated/6f6p85he.jpg" alt="">
-                    </div>
-                  </div>
-                  <div class="flex-grow-1 ms-2 ms-sm-3">
-                    <div class="reply-meta d-flex align-items-baseline">
-                      <h6 class="mb-0 me-2">James Parsons</h6>
-                      <span class="text-muted">1d</span>
-                    </div>
-                    <div class="reply-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore sed eos sapiente, praesentium.
-                    </div>
-                  </div>
+            <br />
+            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+                <div class="input-icon">        
+                    <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                
                 </div>
-              </div>
+            <br />
+                
+            <p style="margin-left:10px;">View all 983 comments</p>
+            <div class="bulat-kiri" style="margin-left:10px;"></div>           
+                    <input type="text"  placeholder="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
+                
             </div>
-          </div>
-          <div class="comment d-flex">
-            <div class="flex-shrink-0">
-              <div class="avatar avatar-sm rounded-circle">
-                <img class="avatar-img" src="https://uifaces.co/our-content/donated/EPx48HPQ.jpg" alt="">
-              </div>
+            <br />
+            <h5 class="tengah mb-5">Lihat Lainnya</h5>
+            <br />
+
+
+            <div class="button-ajukan mb-5">
+                <input type="button" value="ajukan pertanyaan" class="ajukan center-block mb-3 bold-ajukan ">
             </div>
-            <div class="flex-shrink-1 ms-2 ms-sm-3">
-              <div class="comment-meta d-flex">
-                <h6 class="me-2">Santiago Roberts</h6>
-                <span class="text-muted">4d</span>
-              </div>
-              <div class="comment-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum in corrupti dolorum, quas delectus nobis porro accusantium molestias sequi.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="comment-form d-flex align-items-center">
-          <div class="flex-shrink-0">
-            <div class="avatar avatar-sm rounded-circle">
-              <img class="avatar-img" src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200" alt="">
-            </div>
-          </div>
-          <div class="flex-grow-1 ms-2 ms-sm-3">
-            <form>
-              <textarea class="form-control py-0 px-1 border-0" rows="1" placeholder="Start writing..." style="resize: none;"></textarea>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    
+
     </div>
     <div class="footer text-center">
         <div class="top mt-3">

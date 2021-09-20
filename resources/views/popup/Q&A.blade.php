@@ -113,10 +113,10 @@
             <span class="iconify" data-icon="bx:bxs-chevron-down" style="color: #ffc600;" data-height="50"></span>
         </div>
     </div>
-    
     <div class="button-ajukan">
         <input type="button" value="ajukan pertanyaan" class="ajukan center-block mb-3   ">
     </div>
+    
 </div>
 
 <div class="footer text-center">
