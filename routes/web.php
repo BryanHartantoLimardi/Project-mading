@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\http\Controllers\MadingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,34 +14,104 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+
+
+
+
+
+
+
+// Route::get('/edit-profile', function() {
+//     return view('editprofile');
+// });
+
+// Route::get('/about-profile', function() {
+//     return view('aboutprofile');
+// });
+
+// Route::get('/pertanyaan-profile', function() {
+//     return view('tanya');
+// });
+// Route::get('/', function() {
+//     return view('chat');
+// });
+// Route::get('/modal', function() {
+//     return view('modal');
+// });
+// Route::get('/Q&A', function() {
+//     return view('Q&A');
+// });
+// Route::get('/member', function() {
+//     return view('member');
+// });
+// Route::get('/addpost', function() {
+//     return view('addpost');
+// });
+
+// Route::get('/modal-raymond', function() {
+//     return view('modal-raymond');
+// });
+
+// Route::get('/modal-raymond', function() {
+//     return view('modal-raymond');
+// });
+
+Route::get('/post', [MadingController::class, 'post']);
+
+Route::get('/', [MadingController::class, 'index']);
 
 Route::get('/login', function () {
-    return view('login');
+    return view('login.login');
 });
 
-Route::get('/mainpage', function () {
-    return view('indexafterlogin');
-});
+Route::post('/mainpage', [MadingController::class, 'store']);
 
-Route::get('/detail-img', function () {
-    return view('detailimg');
+Route::get('/mainpage', [MadingController::class, 'mainpage']);
+
+
+Route::get('/detailprofile', function () {
+    return view('home.detailprofile.index');
 });
 
 Route::get('/profile', function() {
-    return view('profile');
+    return view('profile.profile');
 });
 
 Route::get('/edit-profile', function() {
-    return view('editprofile');
+    return view('profile.editprofile');
 });
 
 Route::get('/about-profile', function() {
-    return view('aboutprofile');
+    return view('profile.aboutprofile');
 });
 
 Route::get('/pertanyaan-profile', function() {
-    return view('tanya');
+    return view('profile.tanya');
+});
+Route::get('/modal', function() {
+    return view('popup.modal');
+});
+Route::get('/Q&A', function() {
+    return view('popup.Q&A');
+});
+Route::get('/member', function() {
+    return view('popup.member');
+});
+Route::get('/post', function() {
+    return view('popup.post');
+});
+
+Route::get('/coba', function() {
+    return view('popup.coba');
+});
+Route::get('/karya', function() {
+    return view('popup.karya');
+});
+
+Route::get('/chat', function() {
+    return view('popup.chat');
+});
+
+Route::get('/loginupdate', function() {
+    return view('login.login');
 });

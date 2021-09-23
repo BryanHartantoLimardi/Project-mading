@@ -21,7 +21,7 @@
     <div class="heading-image">
         <div class="container itam">
             <div class="isi">
-                <b class="b-head mb-3">Tempat untuk <br> Mengkreasikan Karyamu</b>
+                <b class="b-head mb-3">Tempat untuk <br> Mengkreasikan karyamu</b>
                 <p class="mb-4 text-size image-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At natus quis
                     sit facere
                     laborum
@@ -54,7 +54,8 @@
                     <div class="card about-data">
                         <hr class="line-decoration">
                         <b class="mb-2">12 TKJ 3</b>
-                        <p class="text-size">Ide ini dibangun oleh salah satu kelompok di Kelas 12 TKJ 3. Kami membuat ide
+                        <p class="text-size">Ide ini dibangun oleh salah satu kelompok di Kelas 12 TKJ 3. Kami membuat
+                            ide
                             ini
                             agar dapat membantu
                             Sekolah kita agar dapat lebih membangun sekolah untuk lebih maju dan lebih kedepan</p>
