@@ -341,6 +341,7 @@ header{
 .text { white-space: nowrap; width: 1%; padding: 0 10px; }
 .line { border-bottom: 1px solid #E0E0E0; position: relative; top: -.5em; }
 
+
 .login-container {
    display: flex;
    justify-content: center;

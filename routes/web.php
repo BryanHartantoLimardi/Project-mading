@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\MadingController;
-
+use App\http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -115,3 +115,5 @@ Route::get('/chat', function() {
 Route::get('/loginupdate', function() {
     return view('login.login');
 });
+
+Route::post('/login', [LoginController::class, 'authenticate']);
