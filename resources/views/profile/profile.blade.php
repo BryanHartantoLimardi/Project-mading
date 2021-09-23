@@ -85,6 +85,88 @@
         </ul>
     </div>
     </div>
+
+    <div id="post_bar" style="margin:10px;">
+        <!-- Post Header -->
+        <div id="post">
+            <div class="profile">
+                <img src="images/profil.png" alt=""
+                    style="width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;">
+                <p class="post-profile-name">Wilson Aiken Tedjakusuma <br> <span>16 Januari 2021</span></p>
+            </div>
+            <div class="kanan dropdown">
+                <button class="dropbtn" onclick="tekan()"><i class="fas fa-ellipsis-h"
+                        style="font-size: 25px;"></i></button>
+                <div id="drop" class="dropdown-content">
+                    <a href="#">Delete</a>
+                    <hr>
+                    <a href="#">Report</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Isi Postingan -->
+        <div class="postingan">
+            <img src="images/coba.jpg" alt="" style="">
+            <p> Perjalanan saya ke atas gunung yang sangat indah menikmati sunset tepat di atas air laut. Pengambilan foto ini sangat sulit, kami menunggu dari pagi untuk mengambil foto ini di saat matahari tenggelam.</p>
+            
+        </div>
+
+        <!-- Tombol-tombol -->
+        <ul class="post-reacts">
+            <li id="menu_buttons" class="post-react">
+                <a href="#"> <i class="far fa-thumbs-up align-middle"></i>Suka</a>
+            </li>
+            <li id="menu_buttons" class="post-react">
+                <a href="#"> <i class="far fa-comment-alt align-middle"></i>Komentar</a>
+            </li>
+            <li id="menu_buttons" class="post-react">
+                <a href="#"> <i class="fas fa-share align-middle"></i>Bagikan</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <div id="post_bar" style="margin:10px;">
+        <!-- Post Header -->
+        <div id="post">
+            <div class="profile">
+                <img src="images/profil.png" alt=""
+                    style="width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;">
+                <p class="post-profile-name">Wilson Aiken Tedjakusuma <br> <span>16 Januari 2021</span></p>
+            </div>
+            <div class="kanan dropdown">
+                <button class="dropbtn" onclick="tekan()"><i class="fas fa-ellipsis-h"
+                        style="font-size: 25px;"></i></button>
+                <div id="drop" class="dropdown-content">
+                    <a href="#">Delete</a>
+                    <hr>
+                    <a href="#">Report</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Isi Postingan -->
+        <div class="postingan">
+            <img src="images/coba.jpg" alt="" style="">
+            <p> Perjalanan saya ke atas gunung yang sangat indah menikmati sunset tepat di atas air laut. Pengambilan foto ini sangat sulit, kami menunggu dari pagi untuk mengambil foto ini di saat matahari tenggelam.</p>
+            
+        </div>
+
+        <!-- Tombol-tombol -->
+        <ul class="post-reacts">
+            <li id="menu_buttons" class="post-react">
+                <a href="#"> <i class="far fa-thumbs-up align-middle"></i>Suka</a>
+            </li>
+            <li id="menu_buttons" class="post-react">
+                <a href="#"> <i class="far fa-comment-alt align-middle"></i>Komentar</a>
+            </li>
+            <li id="menu_buttons" class="post-react">
+                <a href="#"> <i class="fas fa-share align-middle"></i>Bagikan</a>
+            </li>
+        </ul>
+    </div>
+    </div>
     <script src="js/java.js"></script>
 </body>
 

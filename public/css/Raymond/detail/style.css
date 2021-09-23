@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins';
 }
 .bck{
-    margin: 10px 0 20px 10px;
+    /* margin: 10px 0 20px 10px; */
 }
 .img{
     width: 50px;
@@ -13,10 +13,10 @@ body{
 }
 .tengah{
     background-color: white;
-    height: 375px;
-    width: 370px;
+    height: 100%;
+    width: 440px;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 25px;
     margin-top: 20px;
     border-radius: 5px;
 }
