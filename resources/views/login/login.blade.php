@@ -12,7 +12,7 @@
                 <input type="text" class="login-input" placeholder="Email Address">
                 <input type="text" class="login-input" placeholder="Password">
 
-                <button type="submit" class="login-button">Sign In</button>
+                <a href="/mainpage" class=""><input type="button" class="login-button" value="Sign In"></a>
                 <p class="m-2 text-muted login-text">Don't have an account? <a href="">Register</a></p>
             </div>
         </form>

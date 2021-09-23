@@ -3,10 +3,11 @@
 @section('title','chat')
 
 @section('body-container')
+
 <div class="navbar mb-5">        
     <div class="container ">
         <b><i class="fa fa-bars mr-3"></i>&nbsp;&nbsp;&nbsp;Mading SMK</b>
-   <div class="bulat-kanan mt-1"></div>
+   
 
     </div>
 </div>
@@ -16,7 +17,7 @@
 <p class="text-size2 image-text mt-4 mb-3">Belajar dari kemarin Hidup untuk sekarang. 
             Berharap untuk besok. Hal yang paling penting adalah jangan berhenti bertanya</p>
 
-            <input type="text" id="" name="" class="pertanyaan" style="border-width:0" value="Apa Pertanyaanmu?">
+            <input type="text" id="" name="" class="pertanyaan" style="border-width:0" placeholder="Apa Pertanyaanmu?">
         </div>
     </div>
 </div>
@@ -33,12 +34,48 @@
         {{-- <>Computer</><p>Matematika</p><p>sains</p><p>Jaringan</p><p>icon</p> --}}
     </div>
 </div>
-    <div class="kotak-abu">
+<div class="kotak-abu">
+    <div class="bulat-kiri mt-2" style="margin-left:10px;"></div><p class="mt-2" style="margin-bottom:10px;">Wilson AIken Tedjakusuma
+        <br />
+        <span style="font-size:12px;" >16 januari 2021</span>            
+    </p>
+    <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+
+    <div class="qContent">
+        <p class='kotakp'>iT</p>
+        <p class='kotakp'>Designer</p>
+        <p class='kotakp'>jaringan</p>
+        <br />
+    </div>
+    <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+        <div class="input-icon">        
+            <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+            <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+            <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+            <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+            
+        </div>
+    <br />
+    <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
+        <div class="input-icon">        
+            <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+            <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+            <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+            <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+        
+        </div>
+    <br />
+        
+    <p style="margin-left:10px;">View all 983 comments</p>
+    <div class="bulat-kiri" style="margin-left:10px;"></div>           
+            <input type="text"  placeholder="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
+        
+    </div><div class="kotak-abu">
         <div class="bulat-kiri mt-2" style="margin-left:10px;"></div><p class="mt-2" style="margin-bottom:10px;">Wilson AIken Tedjakusuma
             <br />
             <span style="font-size:12px;" >16 januari 2021</span>            
         </p>
-        <textarea disabled style="width:350px; margin-top:10px; height:100px; text-wrapping:enable" >lorem ipsum dolor sit amet , constracture lorem ipsum dolor sit amet contstracture dolor amet sit ipsum lorem ipsum dolor</textarea>
+        <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
 
         <div class="qContent">
             <p class='kotakp'>iT</p>
@@ -47,75 +84,40 @@
             <br />
         </div>
         <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
-                <div class="input-icon">        
-                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
-                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
-                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
-                   
-                </div>
-            <br />
-            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
-                <div class="input-icon">        
-                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
-                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
-                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
-                   
-                </div>
-            <br />
-            
-        <p style="margin-left:10px;">View all 983 comments</p>
-        <div class="bulat-kiri" style="margin-left:10px;"></div>           
-                <input type="text" value="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
-            
-    </div>
-    <div class="kotak-abu ">
-        <div class="bulat-kiri mt-2" style="margin-left:10px;"></div><p class="mt-2" style="margin-bottom:10px;">Wilson AIken Tedjakusuma
-            <br />
-            <span style="font-size:12px;" >16 januari 2021</span>            
-        </p> 
-        <textarea disabled style="width:350px; margin-top:10px; height:100px; text-wrapping:enable" >lorem ipsum dolor sit amet , constracture lorem ipsum dolor sit amet contstracture dolor amet sit ipsum lorem ipsum dolor</textarea>
-        <div class="qContent">
-            <p class='kotakp'>iT</p>
-            <p class='kotakp'>Designer</p>
-            <p class='kotakp'>jaringan</p>
-            <br />
-        </div>
+            <div class="input-icon">        
+                <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+                <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+                
+            </div>
+        <br />
         <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
-                <div class="input-icon">        
-                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
-                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
-                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>                   
-                </div>
-
-            <br />
-
-            <div class="bulat-kiri mt-2" style="margin-left:10px;"></div>
-                <div class="input-icon">        
-                    <input type="text" value="Jadi abang nanti bal bla bla" style="margin-top:15px; border-radius:10px; border-width:0; height:50px; padding:10px; width:360px;">
-                    <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
-                    <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
-                    <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
-                   
-                </div>
-                <br />
-
+            <div class="input-icon">        
+                <input type="text" class="reply" disabled value="Jadi abang nanti bal bla bla" >
+                <i id="user1" class="iconify" data-icon="pepicons:info-filled" data-height="50"></i>
+                <i id="user2" class="iconify" data-icon="heroicons-solid:chat-alt" data-height="50"></i>
+                <i id="user3" class="iconify" data-icon="wpf:like" data-height="50"></i>
+            
+            </div>
+        <br />
             
         <p style="margin-left:10px;">View all 983 comments</p>
         <div class="bulat-kiri" style="margin-left:10px;"></div>           
-                <input type="text" value="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
+                <input type="text"  placeholder="tambahkan komentar anda" style="margin-top:15px; border-radius:10px;  border-width:0; height:30px; padding:10px; width:360px;">
             
-    </div>
-    <div class="content-luar">
+        </div>
+        <br />
+    <div class="content-luar" >
         <div class="luar-nofill">
             <span class="iconify" data-icon="bx:bxs-chevron-down" style="color: #ffc600;" data-height="50"></span>
         </div>
     </div>
+    <br />
     <div class="button-ajukan">
         <input type="button" value="ajukan pertanyaan" class="ajukan center-block mb-3   ">
     </div>
+    <br />
     
 </div>
 
