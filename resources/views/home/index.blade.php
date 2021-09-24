@@ -73,27 +73,27 @@
                             <div class="service-logo mt-4"><i class="fa fa-paper-plane"></i></div>
                         </div>
                         <b class="service-title">Creation</b>
-                        <p class="mt-2 text-size margin-container ">Lorem ipsum dolor sit amet, consectetur
-                            Elementum purus morbi enim pharetra cursus
-                            lectus. Pulvinar pellentesque magna ridiculus</p>
+                        <p class="mt-2 text-size margin-container ">Creatian adalah tempat untuk murid-murid lain atau pun 
+                            para alumni untuk memposting creativitas yang telah mereka buat ke dalam website kami
+                        </p>
                     </div>
                     <div class="col-lg-12 text-center mb-3">
                         <div class="thumb-icon d-flex justify-content-center mb-3">
                             <div class="service-logo mt-4"><i class="fa fa-commenting"></i></div>
                         </div>
                         <b class="service-title">Chat</b>
-                        <p class="mt-2 text-size margin-container">Lorem ipsum dolor sit amet, consectetur
-                            Elementum purus morbi enim pharetra cursus
-                            lectus. Pulvinar pellentesque magna ridiculus</p>
+                        <p class="mt-2 text-size margin-container">Chat yang digunakan untuk mengkontak para murid jika ada yang tertarik
+                            pada hasil karya yang telah mereka post di bagian Creation di atas
+                        </p>
                     </div>
                     <div class="col-lg-12 text-center mb-5">
                         <div class="thumb-icon d-flex justify-content-center mb-3">
                             <div class="service-logo mt-4"><i class="fa fa-comments"></i></div>
                         </div>
                         <b class="service-title">Q&A</b>
-                        <p class="mt-2 text-size margin-container">Lorem ipsum dolor sit amet, consectetur
-                            Elementum purus morbi enim pharetra cursus
-                            lectus. Pulvinar pellentesque magna ridiculus</p>
+                        <p class="mt-2 text-size margin-container">Kami menyediakan tempat untuk bertanya jawab agar memiliki interaksi di 
+                            website kami dan tempat yang mungkin menjadi tempat solusi dari permasalahan murid lain
+                        </p>
                     </div>
                 </div>
             </div>
