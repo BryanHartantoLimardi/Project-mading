@@ -19,7 +19,7 @@
   <a href="/Q&A">Q&A</a>
   <hr>
 
-<div class="profilepic">
+{{-- <div class="profilepic">
     <div class="left-pic">
         <div class="avatar avatar-sm rounded-circle">
                         <img class="avatar-img" src="https://uifaces.co/our-content/donated/AW-rdWlG.jpg" alt="">
@@ -28,7 +28,8 @@
 <div class="right-pic">
 <p class="signinsession">Login in as</p>
 <p class="signinsession-bot">Wilson Aiken</p>
-</div></div>
+</div>
+</div> --}}
  
 </div>
 
@@ -48,7 +49,7 @@
         <div class="isi-main mb-3"> 
             <h1 style="text-align: center; margin-bottom:30px;">Top 3 Creation</h1>
             <a href="/detailprofile" class=""><div class="box">
-                <img src="images/post1.png">
+                <img src="images/post1.png" >
         
                 <p class="text kiri-bawah">FireWatch</p>
                 <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
@@ -61,10 +62,13 @@
 
         <div class="isi-main mb-3"> 
             <div class="box">
-                <select name="filter" id="filter">
-                    <option value="category">Category</option>
-                    <option value="category">Like</option>
-                    <option value="category">Category</option>
+                <select name="filter" id="filter" style="border:0; background-color:#F4F4F4; border-radius:5px; width:120px; height:35px;">
+                    <option class="border" value="category">3D</option>
+                    <option value="category">Abstract</option>
+                    <option value="category">Animals</option>
+                    <option value="category">Art</option>
+                    <option value="category">Computer</option>
+                    <option value="category">technologies</option>
                 </select>
             </div>
         </div>
@@ -136,7 +140,7 @@
             <br />
             <span style="font-size:12px;" >16 januari 2021</span>            
         </p>
-        <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+        <textarea disabled class="textarea">Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
 
         <div class="qContent">
             <p class='kotakp'>iT</p>
@@ -174,7 +178,7 @@
                 <br />
                 <span style="font-size:12px;" >16 januari 2021</span>            
             </p>
-            <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+            <textarea disabled class="textarea">Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
     
             <div class="qContent">
                 <p class='kotakp'>iT</p>
