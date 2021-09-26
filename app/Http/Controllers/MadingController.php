@@ -22,11 +22,60 @@ class MadingController extends Controller
         $posts = mading::all();
         return view('home.indexafterlogin', ["posts"=>$posts]);
     }
+    public function detailprofile()
+    {
+        return view ('home.detailprofile.index');
+    }
+    public function profile()
+    {
+        return view('profile.profile');
+    }
 
+    public function edit_profile()
+    {
+        return view('profile.editprofile');
+    }
+    public function about_profile()
+    {
+        return view('profile.aboutprofile');
+    }
+    public function pertanyaan_profile()
+    {
+        return view('profile.editprofile');
+    }
+    public function modal()
+    {
+        return view('popup.modal');
+    }
+    public function QandA()
+    {
+        $post = mading::latest()->get();
+        return view('popup.Q&A', ["post"=>$post]);
+    }
+    public function member()
+    {
+        return view('popup.member');
+    }
     public function post()
     {
-        return view('post');
+        return view('popup.post');
     }
+    public function addpost()
+    {
+        return view('popup.coba');
+    }    
+
+    public function karya()
+    {
+        return view('popup.karya');
+    }
+
+    public function chat()
+    {
+        return view('popup.chat');
+    }
+
+  
 
     /**
      * Show the form for creating a new resource.
@@ -48,11 +97,12 @@ class MadingController extends Controller
     {
         $post = new mading();
 
+
         $post->pertanyaan = $request->pertanyaan;
         $post->kategori = $request->kategori;
         $post->save();
 
-        return redirect('/mainpage');
+        return redirect('/Q&A');
         
 
     }

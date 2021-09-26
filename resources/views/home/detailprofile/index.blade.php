@@ -51,44 +51,11 @@
 			</div>
 			</div>
 
-			<div class="media-msg" style="margin-top: 10px;">
+				 {{-- <div class="media-msg" style="margin-top: 10px;">
 					<a class="pull-left" href="#">
 						<img class="media-object smlfoto img" style="margin-right: 4px; width:40px; height:40px;" src="images/raymond/profile.jpg">
-					</a>
-					<div class="media-body" style="margin: 0 0 8px 28px;">
-						<div class="card" style="margin-bottom: 0;">
-							<div class="card-body" style="padding: 8px 8px;">
-								<small class="pull-right time mt-2">
-								<table>
-									<tr>
-										<th style="font-size: 15px; color: #727272; padding: 0 12px 0 0;">
-											<i class="far fa-thumbs-up"></i>
-										</th>
-										<th style="font-size: 15px; color: #727272; padding: 0 12px 0 0;">
-											<i class="far fa-comment-alt"></i>
-										</th>
-										<th style="font-size: 15px; color: #727272; padding: 0 12px 0 0;">
-											<img src="images/raymond/report.png" style= alt="">
-										</th>
-									</tr>
-								</table>
-								</small>
-								<div class="" style="font-size: 10px; font-weight: 600;">
-									Manusia <br>
-									<span style="font-size: 10px; font-weight: 900;">
-										Keren bang gambarnya, kalau ada waktu ajarkan aku ya bang...
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				 <div class="media-msg" style="margin-top: 10px;">
-					<a class="pull-left" href="#">
-						<img class="media-object smlfoto img" style="margin-right: 4px; width:40px; height:40px;" src="images/raymond/profile.jpg">
-					</a>
-					<div class="media-body" style="margin: 0 0 8px 28px;">
+					</a> --}}
+					{{-- <div class="media-body" style="margin: 0 0 8px 28px;">
 						<div class="card" style="margin-bottom: 0;">
 							<div class="card-body" style="padding: 8px 8px;">
 								<small class="pull-right time mt-2 ml-2">
@@ -105,17 +72,17 @@
 										</th>
 									</tr>
 								</table>
-								</small>
-								<div class="text-start" style="font-size: 10px; font-weight: 600;">
+								</small> --}}
+								{{-- <div class="text-start" style="font-size: 10px; font-weight: 600;">
 									Manusia <br>
 									<span style="font-size: 10px; font-weight: 900;">
 										Keren bang gambarnya, kalau ada waktu ajarkan aku ya bang...
 									</span>
-								</div>
-							</div>
+								</div> --}}
+							{{-- </div>
 						</div>
 					</div>
-				</div>
+				</div> --}}
 				
 				<p class="mt-2"style="color: #717171; font-weight:bold; ">&nbsp; View all comments </p>
 
