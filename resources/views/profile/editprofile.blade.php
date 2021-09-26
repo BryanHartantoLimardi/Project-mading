@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/Raymond/style.css">
 </head>
 <body style="background:white">
-    <img src="images/sekolah.jpg" alt="" style="width: 100%; height: 110px; filter: brightness(50%); object-fit:cover">
+    <a href="/mainpage"><img src="images/sekolah.jpg" alt="" style="width: 100%; height: 110px; filter: brightness(50%); object-fit:cover">
+    </a>
     <div class="edit-profile-head">
         <img src="images/profil.png">
         <button class="btn yellow-btn m-3">Upload new picture</button>

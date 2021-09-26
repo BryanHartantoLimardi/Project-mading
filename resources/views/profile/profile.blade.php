@@ -22,8 +22,8 @@
 <body>
     <div style="width: 100%; margin:auto; background-color:black; min-height:400px;">
         <div style="text-align: center; background-color:white;">
-            <img src="images/sekolah.jpg" alt="" style="width: 100%; filter:brightness(60%);">
-            <img id="profile_pic" src="images/profil.png" alt="foto" style="position: relative">
+            <a href="/mainpage"><img src="images/sekolah.jpg" alt="" style="width: 100%; filter:brightness(60%);">   
+        </a><img id="profile_pic" src="images/profil.png" alt="foto" style="position: relative">
             <br>
             <p class="profile-name">Wilson Aiken Tedjakusuma</p>
 

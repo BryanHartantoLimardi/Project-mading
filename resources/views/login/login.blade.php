@@ -20,10 +20,10 @@
         @csrf
             <div class="login-form-area">
                 
-                <input type="text" class="login-input" placeholder="Email Address" name="email" required>
-                <input type="text" class="login-input" placeholder="Password" name="password" required>
+                <input type="email" class="login-input" placeholder="Email Address" name="email" required>
+                <input type="password" class="login-input" placeholder="Password" name="password" required>
 
-                <a href="/mainpage" class=""><input type="button" class="login-button" value="Sign In"></a>
+                <button type="submit" class="login-button">Sign In</button>
                 <p class="m-2 text-muted login-text">Don't have an account? <a href="">Register</a></p>
             </div>
         </form>
