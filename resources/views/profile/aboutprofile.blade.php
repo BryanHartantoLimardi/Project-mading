@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="css/Raymond/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <style>
     </style>
 </head>
@@ -52,9 +54,8 @@
             <p class="about-title"> About Me</p>
             <div class="about-line"></div>
         </div>
-        <p> Saya Wilson Aiken Murid SMK Immanuel Angkatan 2018, Saya sangat suka membuat karya karya tentang pemandangan</p>
-        <br>
-        <p class="post-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, animi quaerat fugiat laboriosam rem
+        <p class="post-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, animi quaerat
+            fugiat laboriosam rem
             sint dignissimos? Atque consequuntur quaerat ipsum? Atque quis sit temporibus nobis unde nostrum, natus
             voluptate optio.</p>
 
@@ -66,18 +67,11 @@
         </div>
         <div class="post-info">
             <p>Phone: <span>+62 0898 9867 8965</span> <br>
-            Alamat: <span>Purnama agung 5 no b2</span> <br>
-            Email: <span>wilso.6726@ski.sch.id</span> <br>
-            Kelas: <span>12 TKJ 3</span></p>
+                Alamat: <span>Purnama agung 5 no b2</span> <br>
+                Email: <span>wilso.6726@ski.sch.id</span> <br>
+                Kelas: <span>12 TKJ 3</span></p>
         </div>
-        <p>This is my contact</p>
-        <br>
-        <ul>
-            <li>Phone: +62 0898 9867 8965</li>
-            <li>Alamat: Purnama agung 5 no b2</li>
-            <li>Email: wilso.6726@ski.sch.id</li>
-            <li>Kelas: 12 TKJ 3</li>
-        </ul>
+
     </div>
     <div id="post_bar">
         <div id="post">
@@ -87,7 +81,9 @@
         <div class="achievement">
             <p>Juara satu creation of the week</p>
             <img src="images/coba.jpg" style="width:100%">
-            <p class="achievement-caption">Perjalanan saya ke atas gunung yang sangat indah menikmati sunset tepat di atas air laut. Pengambilan foto ini sangat sulit, kami menunggu dari pagi untuk mengambil foto ini di saat matahari tenggelam.</p>
+            <p class="achievement-caption">Perjalanan saya ke atas gunung yang sangat indah menikmati sunset tepat di
+                atas air laut. Pengambilan foto ini sangat sulit, kami menunggu dari pagi untuk mengambil foto ini di
+                saat matahari tenggelam.</p>
 
             <ul class="post-reacts" style="margin-left: -20px;">
                 <li id="menu_buttons" class="post-react">
@@ -101,6 +97,7 @@
                 </li>
             </ul>
         </div>
+
     </div>
 
 

@@ -41,7 +41,7 @@ class MadingController extends Controller
     }
     public function pertanyaan_profile()
     {
-        return view('profile.editprofile');
+        return view('profile.tanya');
     }
     public function modal()
     {

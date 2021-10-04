@@ -101,4 +101,4 @@ Route::get('/loginupdate', function() {
     return view('login.login');
 });
 
-Route::post('/login', [LoginController::class, 'authenticate'])
+Route::post('/login', [LoginController::class, 'authenticate']);
