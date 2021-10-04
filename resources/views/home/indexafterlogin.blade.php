@@ -218,7 +218,7 @@
             <div class="button-ajukan mb-5">
                 {{-- <form action="" method="post">
                     {{csrf_field()}} --}}
-                    <button  class="ajukan center-block mb-3 bold-ajukan " id="myBtn">Ajukan Pertanyaan</button>
+                   <a href="/Q&A" class=""><button  class="ajukan center-block mb-3 bold-ajukan " id="myBtn">Ajukan Pertanyaan</button></a>
                 
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
@@ -299,7 +299,7 @@
 
     </div>
 {{-- </div> --}}
-<script>
+{{-- <script>
 
     
 
@@ -340,5 +340,5 @@ function baru(){
     }
 }
 
-</script>
+</script> --}}
 @endsection

@@ -5,21 +5,21 @@
 @section('body-container')
 
 
-<!-- @if(session()->has('LoginError'))
-<div class="alert alert-danger alert-dismissable fade show" role="alert">
-    {{ session('LoginError') }}
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-@endif -->
+    <!-- @if (session()->has('LoginError'))
+    <div class="alert alert-danger alert-dismissable fade show" role="alert">
+        {{ session('LoginError') }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif -->
 
     <div class="container login-container">
         <h1>Let's Sign you In</h1>
         <p class="text-muted">Log in with your data that you entered <br> during your registration</p>
 
         <form action="/login" method="post">
-        @csrf
+            @csrf
             <div class="login-form-area">
-                
+
                 <input type="email" class="login-input" placeholder="Email Address" name="email" required>
                 <input type="password" class="login-input" placeholder="Password" name="password" required>
 
