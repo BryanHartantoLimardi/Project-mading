@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-    <div class="body-content-image">
+    <!-- <div class="body-content-image"> -->
         <div class="container">
             <div class="about-us mb-5">
                 <div class="top text-center mt-4 mb-2">
@@ -141,5 +141,5 @@
         <div class="footer-end">
 
         </div>
-    </div>
+    <!-- </div> -->
 @endsection

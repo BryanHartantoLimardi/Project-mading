@@ -56,6 +56,11 @@ use App\http\Controllers\LoginController;
 //     return view('modal-raymond');
 // });
 
+
+Route::get('/mainkarya', function () {
+    return view('home.mainkarya');
+});
+
 Route::get('/post', [MadingController::class, 'post']);
 
 Route::get('/', [MadingController::class, 'index']);
@@ -96,4 +101,4 @@ Route::get('/loginupdate', function() {
     return view('login.login');
 });
 
-// Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/login', [LoginController::class, 'authenticate'])

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -52,6 +52,8 @@
             <p class="about-title"> About Me</p>
             <div class="about-line"></div>
         </div>
+        <p> Saya Wilson Aiken Murid SMK Immanuel Angkatan 2018, Saya sangat suka membuat karya karya tentang pemandangan</p>
+        <br>
         <p class="post-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, animi quaerat fugiat laboriosam rem
             sint dignissimos? Atque consequuntur quaerat ipsum? Atque quis sit temporibus nobis unde nostrum, natus
             voluptate optio.</p>
@@ -68,7 +70,14 @@
             Email: <span>wilso.6726@ski.sch.id</span> <br>
             Kelas: <span>12 TKJ 3</span></p>
         </div>
-
+        <p>This is my contact</p>
+        <br>
+        <ul>
+            <li>Phone: +62 0898 9867 8965</li>
+            <li>Alamat: Purnama agung 5 no b2</li>
+            <li>Email: wilso.6726@ski.sch.id</li>
+            <li>Kelas: 12 TKJ 3</li>
+        </ul>
     </div>
     <div id="post_bar">
         <div id="post">
@@ -92,7 +101,6 @@
                 </li>
             </ul>
         </div>
-
     </div>
 
 
