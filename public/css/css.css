@@ -312,6 +312,7 @@
     background-color:#E0E0E0; 
     margin-bottom:10px;
     border-width: 0;
+    padding:10px;
 }
 .pilih{
     background-color:#E0E0E0; 
@@ -343,7 +344,8 @@
 }
 .kotakp{
     background-color:white;
-    width:80px;
+    width:105px;
+    height:25px;
     text-align:center;
     float:left;
     margin-left:10px;
@@ -367,6 +369,14 @@
     background-size: cover;
     width: 100%;
     height: 300px;
+    color: white;
+}
+
+.heading2 {
+    background-image: url("../img/img.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 150px;
     color: white;
 }
 

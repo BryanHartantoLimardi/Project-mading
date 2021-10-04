@@ -10,6 +10,7 @@
 }
 .tengah{
     text-align: center;
+    
 }
 .box img{
     width:100%;
@@ -32,4 +33,8 @@
     bottom: 25px;
     right: 70px;
     color:white;
+}
+
+.border{
+    border:0;
 }

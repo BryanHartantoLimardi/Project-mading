@@ -1,49 +1,99 @@
 body{
-	min-height: 100px;
-	height: auto;
 	/* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/sekolah.jpg); */
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-color: #ACE7FF;
+	background-color: #EEF2F9;
+	font-family: 'Poppins';
 }
 #profile_pic{
-	width: 150px;
-	height: 150px;
+	width: 105px;
+	height: 105px;
 	margin-top: -90px;
 	border-radius: 50%;
-	border: solid 2px white;
+	border: solid 4px white;
 }
-a{
+.profile-name{
+	font-family: 'Poppins';
+	font-size: 18px;
+	color: #444;
+}
+.post-profile-name{
+	margin-top: 6px;
+	font-family: 'Poppins';
+	font-size: 12px;
+}
+.post-profile-name span{
+	font-size: 10px;
+	font-weight: bold;
+}
+.tabs{
 	display: block;
 	text-decoration: none !important;
-	color: #FFC600;
+	color: #444;
 	padding: 5px 0;
 	margin:0 10px;
 	font-weight: 500;
+	font-size: 11px;
+	margin-bottom: 17px;
 }
 #menu_buttons{
 	width: 100px;
 	display: inline-block;
 	margin: 2px;
 }
-a:hover, a.active{
+.post-reacts #menu_buttons:hover a,.post-reacts #menu_buttons:hover i{
+	color:#444;
+}
+.post-reacts #menu_buttons{
+	width:auto;
+	margin-right: 18px;
+}
+#menu_buttons i{
+	color:#727272;
+	margin-right: 3px;
+}
+
+.tabs:hover, .tabs.active{
 	border-bottom:2px solid #FFC600 !important;
 	position: relative;
+	color: #FFC600;
 }
 #post_bar{
 	margin-top: 20px;
 	background-color: white;
-	padding: 10px;
-	margin: 50px;
+	margin: 10px;
 	border-radius: 10px;
-	
+}
+
+#post_bar .post-info{
+	list-style-type: none;
+	padding: 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+#post_bar .post-info span{
+	color:#FFC600;
 }
 .profile{
 	display: flex;
+	margin:6px 10px;
 }
 #post{
 	display: flex;
 	justify-content: space-between;
+
+}
+.postingan p{
+	font-weight: bold;
+	font-size: 10px;
+	padding: 6px 20px;
+	background-color: #f1f1f1;
+}
+.postingan img{
+	object-fit: cover;
+	width: 100%;
+	height: 160px;
+	overflow: hidden;
 }
 .dropdown{
 	/* float: right; */
@@ -69,6 +119,26 @@ a:hover, a.active{
 	border-radius: 10px;
 	height: 130px;
   }
+  .post-reacts{
+	margin-top:-20px;
+	padding:6px 20px;
+  }
+  .post-reacts li{
+	  width:80px;
+  }
+  .post-react a{
+	  font-size: 10px;
+	  font-weight: bold;
+	  color: #727272;
+	  text-decoration: none;
+	  line-height: 20px;
+  }
+  .post-react i{
+	font-size: 16px;
+	margin-right: 3px;
+  }
+  
+ 
   /* .dropdown-content :hover{
   } */
   
@@ -85,4 +155,120 @@ a:hover, a.active{
 
 #report{
 	height: 0;
+}
+.achievement{
+	background: #F9F9F9;
+	border-radius: 6.77778px;
+	padding: 20px;
+	margin:20px;
+}
+.achievement-caption{
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.about-title{
+	font-size: 10px;
+	font-weight: 500;
+	margin: 20px 0 0 20px;
+}
+.about-line{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 69.81px;
+	height: 0px;
+	border: 1.35556px solid #FFC600;
+}
+
+/* Pertanyaan */
+.qna{
+	background-color: #F8F8F8;
+}
+.question{
+	background-color: white;
+	margin-left:70px;
+	margin-right:10px;
+	padding:10px;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.qna-tags{
+	display: flex;
+	margin-left:70px;
+	margin-bottom: 30px;
+}
+.qna-tag{
+	background-color: #fff;
+	margin-right: 5px;
+	width:80px;
+	height: 18px;
+	border-radius: 4px;
+	font-size: 12px;
+	text-align: center;
+}
+.qna-comments{
+	margin-bottom: 30px;
+}
+.qna-comment{
+	display: flex;
+	font-size: 12px;
+}
+.qna-comment-box{
+	background-color: #fff;
+	padding:10px;
+	margin: 0 10px 10px 10px;
+	width:100%;
+}
+.qna-comment-box span{
+	opacity: 0.5;
+	font-size: 11px;
+	margin-left: 10px;
+}
+.qna-comment-box p{
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+.like-btn{
+	float: right;
+}
+.like-btn i{
+	opacity: 0.1;
+}
+
+.edit-profile-head{
+	margin:10px;
+}
+.edit-profile-head img{
+	width: 60px;
+	border-radius: 50%;
+}
+.yellow-btn{
+	background: #ffc600;
+	color:white;
+	border-radius: 8px;
+	padding: 8px 15px;
+}
+.gray-btn{
+	background: #efefef;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 8px 15px;
+}
+.tb-small{
+	background-color: #f4f4f4;
+	height: 30px;
+	border:none;
+	margin-bottom: 28px;
+	font-size: 16px;
+	color:#222;
+	padding:0 0 0 10px;
+}
+.tb-big{
+	background-color: #f4f4f4;
+	height: 100px;
+	border:none;
+	margin-bottom: 28px;
+	color:#222;
+	padding:0 0 0 10px;
 }

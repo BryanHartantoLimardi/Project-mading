@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\MadingController;
-
+use App\http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -60,58 +60,40 @@ Route::get('/post', [MadingController::class, 'post']);
 
 Route::get('/', [MadingController::class, 'index']);
 
-Route::get('/login', function () {
-    return view('login.login');
-});
+Route::get('/login', [LoginController::class, 'index']);
 
-Route::post('/mainpage', [MadingController::class, 'store']);
 
 Route::get('/mainpage', [MadingController::class, 'mainpage']);
 
 
-Route::get('/detailprofile', function () {
-    return view('home.detailprofile.index');
-});
+Route::get('/detailprofile',[MadingController::class, 'detailprofile']); 
 
-Route::get('/profile', function() {
-    return view('profile.profile');
-});
+Route::get('/profile', [MadingController::class, 'profile']);
 
-Route::get('/edit-profile', function() {
-    return view('profile.editprofile');
-});
+Route::get('/edit-profile', [MadingController::class, 'edit_profile']);
 
-Route::get('/about-profile', function() {
-    return view('profile.aboutprofile');
-});
+Route::get('/about-profile', [MadingController::class, 'about_profile']);
 
-Route::get('/pertanyaan-profile', function() {
-    return view('profile.tanya');
-});
-Route::get('/modal', function() {
-    return view('popup.modal');
-});
-Route::get('/Q&A', function() {
-    return view('popup.Q&A');
-});
-Route::get('/member', function() {
-    return view('popup.member');
-});
-Route::get('/post', function() {
-    return view('popup.post');
-});
+Route::get('/pertanyaan-profile', [MadingController::class, 'pertanyaan_profile']);
 
-Route::get('/coba', function() {
-    return view('popup.coba');
-});
-Route::get('/karya', function() {
-    return view('popup.karya');
-});
+Route::get('/modal', [MadingController::class, 'modal']);
 
-Route::get('/chat', function() {
-    return view('popup.chat');
-});
+Route::post('/Q&A', [MadingController::class, 'store']);
+
+Route::get('/Q&A', [MadingController::class, 'QandA']);
+
+Route::get('/member', [MadingController::class, 'member']);
+
+Route::get('/post', [MadingController::class, 'post']);
+
+Route::get('/addpost', [MadingController::class, 'addpost']);
+
+Route::get('/karya', [MadingController::class, 'karya']);
+
+Route::get('/chat', [MadingController::class, 'chat']);
 
 Route::get('/loginupdate', function() {
     return view('login.login');
 });
+
+// Route::post('/login', [LoginController::class, 'authenticate']);

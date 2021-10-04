@@ -13,20 +13,23 @@
     <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About us</a>
-  <a href="#">Our service</a>
-  <a href="#">Contact us</a>
-  <a href="#">Q&A</a>
+  <hr>
+  <a href="/profile">Profile</a>
+  <hr>
+  <a href="/Q&A">Q&A</a>
+  <hr>
 
-<div class="profilepic">
+{{-- <div class="profilepic">
     <div class="left-pic">
-<div class="avatar avatar-sm rounded-circle">
-                <img class="avatar-img" src="https://uifaces.co/our-content/donated/AW-rdWlG.jpg" alt="">
-</div>
+        <div class="avatar avatar-sm rounded-circle">
+                        <img class="avatar-img" src="https://uifaces.co/our-content/donated/AW-rdWlG.jpg" alt="">
+        </div>
 </div>
 <div class="right-pic">
 <p class="signinsession">Login in as</p>
 <p class="signinsession-bot">Wilson Aiken</p>
-</div></div>
+</div>
+</div> --}}
  
 </div>
 
@@ -34,18 +37,19 @@
         <b><i class="fa fa-bars mr-3" onclick="openNav()"></i>&nbsp;&nbsp;&nbsp;Mading Sekolah</b>
     </div>
 </div>
-<div class="heading mb-3">
+<div class="heading2 mb-3">
     <div class="container itam">
-        <div class="isi">
-            <b class="b-head mb-3">Welcome To Mading <br> "Session Login Echo di sini"</b>
+        <div class="isi2">
+            <b class="b-head mb-3">Welcome To Mading <br> Wilson Aiken Tedjakusuma</b>
         </div>
     </div>
 </div>
 {{-- <div class="body-content"> --}}
     <div class="container">
         <div class="isi-main mb-3"> 
-            <div class="box"> 
-                <img src="images/post1.png">
+            <h1 style="text-align: center; margin-bottom:30px;">Top 3 Creation</h1>
+            <a href="/detailprofile" class=""><div class="box">
+                <img src="images/post1.png" >
         
                 <p class="text kiri-bawah">FireWatch</p>
                 <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
@@ -53,67 +57,70 @@
 
                 
             </div>
+            </a> 
         </div>
 
         <div class="isi-main mb-3"> 
             <div class="box">
-                <select name="filter" id="filter">
-                    <option value="category">Category</option>
-                    <option value="category">Like</option>
-                    <option value="category">Category</option>
+                <select name="filter" id="filter" style="border:0; background-color:#F4F4F4; border-radius:5px; width:120px; height:35px;">
+                    <option class="border" value="category">3D</option>
+                    <option value="category">Abstract</option>
+                    <option value="category">Animals</option>
+                    <option value="category">Art</option>
+                    <option value="category">Computer</option>
+                    <option value="category">technologies</option>
                 </select>
             </div>
         </div>
 
         <div class="isi-main mb-3"> 
-            <div class="box"> 
+            <a href="/detailprofile" class=""><div class="box"> 
                 <img src="images/post1.png">
         
                 <p class="text kiri-bawah">FireWatch</p>
                 <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
                 <p class="text kanan-bawah">60.000</p>
-            </div>
+            </a></div>
         </div>
 
         <div class="isi-main mb-3"> 
-            <div class="box"> 
+            <a href="/detailprofile" class=""><div class="box"> 
                 <img src="images/post1.png">
         
                 <p class="text kiri-bawah">FireWatch</p>
                 <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
                 <p class="text kanan-bawah">60.000</p>
-            </div>
+            </a></div>
         </div>
 
         <div class="isi-main mb-3"> 
-            <div class="box"> 
+            <a href="/detailprofile" class=""><div class="box"> 
                 <img src="images/post1.png">
         
                 <p class="text kiri-bawah">FireWatch</p>
                 <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
                 <p class="text kanan-bawah">60.000</p>
-            </div>
+            </a></div>
         </div>
 
         <div class="isi-main mb-3"> 
-            <div class="box"> 
+            <a href="/detailprofile" class=""><div class="box"> 
                 <img src="images/post1.png">
         
                 <p class="text kiri-bawah">FireWatch</p>
                 <i class="iconify" id="icon1" data-icon="ant-design:like-filled" data-height="25"></i>
                 <p class="text kanan-bawah">60.000</p>
-            </div>
+            </a></div>
         </div>
         <br />
         <h5 class="tengah">Lihat Lainnya</h5>
+        
     </div>
     <br />
 
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="qna">Q&A</h1>
-        </div>
-    </div>
+    
+            <h1 class="qna tengah">Q&A</h1>
+        
 
     <div class="navbar mt-3">
         <div class="container">
@@ -121,9 +128,7 @@
                 <li> <a href="" class="">Computer</a></li>
                 <li><a href="" class="">Matematika</a></li>
                 <li><a href="" class="">Sains</a></li>
-                <li><a href="" class="">Jaringan</a></li>
-                
-
+                <li><a href="" class="">Jaringan</a></li>         
             </ul>
         </div>
     </div>          
@@ -135,7 +140,7 @@
             <br />
             <span style="font-size:12px;" >16 januari 2021</span>            
         </p>
-        <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+        <textarea disabled class="textarea">Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
 
         <div class="qContent">
             <p class='kotakp'>iT</p>
@@ -173,7 +178,7 @@
                 <br />
                 <span style="font-size:12px;" >16 januari 2021</span>            
             </p>
-            <textarea disabled class="textarea"> Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
+            <textarea disabled class="textarea">Cara Mendownload extension di Laravel untuk Code Editor Visual Studio Code itu gimana ya? Dan ada rekomendasi extension yang bagus gak</textarea>
     
             <div class="qContent">
                 <p class='kotakp'>iT</p>
@@ -211,7 +216,42 @@
 
 
             <div class="button-ajukan mb-5">
-                <input type="button" value="ajukan pertanyaan" class="ajukan center-block mb-3 bold-ajukan ">
+                {{-- <form action="" method="post">
+                    {{csrf_field()}} --}}
+                   <a href="/Q&A" class=""><button  class="ajukan center-block mb-3 bold-ajukan " id="myBtn">Ajukan Pertanyaan</button></a>
+                
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    
+                      <!-- Modal content -->
+                      <div class="row modal-content-raymond">    
+                        <div class=" kotak-kuning mb-5">
+                            <h2 style="margin-top:15px; font-style:bold;">Post Pertanyaanmu</h2>
+                        </div>
+                        <div class="col-bg-2">            
+                            <div class="bulat-kiri"></div><p style="margin-bottom:10px;">Wilson AIken Tedjakusuma
+                                <br />
+                                <span style="background-color:#FFC600; height:30px; padding-left:15px; padding-right:15px; border-radius:2px;">murid</span>            
+                            </p> 
+                            <b>Ajukan Pertanyaan</b>
+                            <div class="body-contents">
+                                <textarea class="tulis-pertanyaan" name="pertanyaan" placeholder="tuliskan pertanyaan mu disini"></textarea>
+                                <br />
+                                <select class="pilih mb-2" name="kategori" value="test">
+                                    <option>Komputer</option>
+                                    <option>PPKN</option>
+                                    <option>Matematika</option>
+                                </select>
+                                <br />
+                                <button type="submit" style="background-color:#FFC600; padding:10px; border-radius:10px; border-width:0;  width:250px;"> tanyakan pertanyaan mu</button>
+                            </div> 
+                        {{-- </form>     --}}
+                            
+                                              
+                        </div>
+                      </div>
+                    </div>
+                </body>
             </div>
     
 
@@ -259,5 +299,47 @@
     <div class="footer-end">
 
     </div>
-</div>
+{{-- </div> --}}
+{{-- <script>
+
+    
+
+        
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+    modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+  
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
+
+
+function baru(){
+    var modal = document.getElementById("myModal");
+
+    modal.style.display="block";
+
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
+}
+
+</script> --}}
 @endsection
