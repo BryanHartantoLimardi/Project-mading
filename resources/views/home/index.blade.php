@@ -27,7 +27,7 @@
                     laborum
                     porro vitae
                     temporibus ab omnis accusamus.</p>
-                <a href="/login"><button class="btn get-started">Get Started</button></a>
+                <a href="/login"><button class="btn get-started">Mulai</button></a>
             </div>
         </div>
     </div>
